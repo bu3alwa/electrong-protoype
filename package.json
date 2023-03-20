@@ -1,0 +1,19 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "author": "", 
+  "keywords": [],
+  "packageManager": "pnpm@7.20.0",
+  "scripts": {
+    "build:desktop": "pnpm --filter=desktop build",
+    "build:backend": "pnpm --filter=backend build",
+    "start:backend": "pnpm --filter=backend start",
+    "dev:desktop": "pnpm --filter=desktop watch",
+    "dev:backend": "pnpm --filter=backend dev"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=7"
+  }
+}
